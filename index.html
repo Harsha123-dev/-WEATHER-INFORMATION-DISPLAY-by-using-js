@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Capture</title>
+  <link rel="stylesheet" href="font/Rimouski.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="input">
+      <input type="text" placeholder="Enter the city" class="input_text">
+      <input type="submit" id="btn" onclick="show(this)"  value="Submit" class="submit">
+    </div>
+  </div>
+
+  <div class="container" id="shows" style="display: none">
+    <div class="card">
+      <br>
+      <p class="name" id="name"></p>
+      <p class="temp"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+      <!-- <p class="country"></p>
+      <p class="icon">
+        <img src="icons/unknown.png" alt="">
+      </p> -->
+      <br>
+      <br>
+  </div>
+<script src="controller.js"></script>
+</body>
+</html>
